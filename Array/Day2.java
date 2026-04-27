@@ -1,5 +1,6 @@
 public class Day2 {
-    public static void update(int marks[]){
+    public static void update(int marks[] , int nonChangeAble){
+        nonChangeAble = 10;
         for(int i=0; i<marks.length; i++){
             marks[i] = marks[i] + 1;
         }
@@ -8,11 +9,13 @@ public class Day2 {
 
         //FUNCTION ARGUMENT
         int marks[] = {97,87,25};
-        update(marks);
+        int nonChangeAble = 5;
+        update(marks , nonChangeAble);
         for(int i=0;i<marks.length;i++){
             System.out.println(marks[i] + " ");
         }
         System.out.println();
-        System.out.println("Editing first time on github directly");
+        System.out.println(nonChangeAble);
+        
     }
 }
