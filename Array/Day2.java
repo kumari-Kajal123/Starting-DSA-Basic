@@ -13,6 +13,6 @@ public class Day2 {
             System.out.println(marks[i] + " ");
         }
         System.out.println();
-        
+        System.out.println("Editing first time on github directly");
     }
 }
