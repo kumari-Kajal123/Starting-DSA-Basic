@@ -26,6 +26,5 @@ public class Print2DArray {
         }
         System.out.println(sum);
         
-
     }
 }
